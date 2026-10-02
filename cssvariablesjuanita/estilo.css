@@ -1,0 +1,30 @@
+:root{
+    --color-fondo:#505F87;
+--fuente:  Georgia, "Times New Roman", serif;
+--color-texto:#B2BABA;
+}
+body {
+ font-family: var(--fuente);
+ color: var(--color-texto);
+ background-color: var(--color-fondo);
+ font-size: 16px;
+ line-height: 1.6;
+}
+h1 {
+ font-size: 2rem;
+ color: var(--color-primario);
+}
+h2 {
+ font-size: 1.5rem;
+ color: var(--color-primario);
+ margin-bottom: 12px;
+}
+h3 {
+ font-size: 1.15rem;
+ color: var(--color-texto);
+ margin-bottom: 8px;
+}
+a {
+ color: var(--color-primario);
+ text-decoration: none;
+}
